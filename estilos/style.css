@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import "assets.css";
+@import "medias.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.preenchimento {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.preenchimento-top {
+    width: 100%;
+    height: 12%;
+    background-color: var(--color-fundo-1);
+}
+
+.preenchimento-base {
+    display: flex;
+    height: calc(100% - 12%);
+}
+
+.preenchimento-lateral {
+    width: 15%;
+    background-color: var(--color-fundo-2);
+}
+
+.preenchimento-content {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+}
+
+.preenchimento-baixo-top {
+    width: 100%;
+    height: 8%;
+    background-color: var(--color-fundo-3);
+}
+
+.area-de-trabalho {
+    width: 100%;
+    height: calc(100% - 8%);
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--color-background-color-1);
+}
+
+img {
+    max-width: 200px;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.background-1 {
+    width: calc(100% - 5%);
+    height: calc(100% - 3%);
+    border-radius: 0 0 2% 2%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--color-background-color-2);
+}
+
+.background-2 {
+    width: calc(100% - 3%);
+    height: calc(100% - 7%);
+    border-radius: 0 0 2% 2%;
+    background-color: var(--color-background-color-3);
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 10px;
+}
+
+.title {
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 20pt;
+    color: var(--color-text-1);
+}
+
+.senha {
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 26pt;
+    color: var(--color-text-2);
+}
+
+.linha {
+    background-color: var(--color-text-1);
+    height: 4px;
+}
+
+.tabela-container {
+    width: 100%;
+    max-height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.tabela {
+    width: 100%;
+    margin-top: 17px;
+    border-collapse: collapse;
+    position: relative;
+    z-index: 1;
+}
+
+th, td {
+    border: 1px solid var(--color-neutro-1);
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 15pt;
+    color: var(--color-neutro-2);
+    background-color: var(--color-table-1);
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+}
+
+tr {
+    background-color: var(--color-background-color-1);
+}
+
+tr td {
+    font-family: "Inter-Bold", sans-serif;
+    font-size: 13pt;
+    color: var(--color-text-1);
+}
+
+.em-atendimento {
+    color: var(--color-em-atendimento);
+}
+
+.disponivel {
+    color: var(--color-disponivel);
+}
+
+.intervalo {
+    color: var(--color-intervalo);
+}

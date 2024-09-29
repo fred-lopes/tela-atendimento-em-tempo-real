@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --color-neutro-1: #000;
+    --color-neutro-2: #fff;
+
+    --color-fundo-1: #fcc0da;
+    --color-fundo-2: #fe9ccc;
+    --color-fundo-3: #e360a5;
+
+    --color-text-1: #33404D;
+    --color-text-2: #535A62;
+
+    --color-table-1: #353D46;
+
+    --color-disponivel: #3AA867;
+    --color-em-atendimento: #0080C8;
+    --color-intervalo: #FFA800;
+
+    --color-background-color-1: #F9F9F9;
+    --color-background-color-2: #E8E8E8;
+    --color-background-color-3: #F0F0F0;
+}

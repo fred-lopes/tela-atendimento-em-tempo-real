@@ -1,0 +1,129 @@
+@media (max-width: 376px) {
+    div.tabela-container{
+        max-height: 100%;
+    }
+
+    h1.title {
+        font-size: 10pt;
+    }
+
+    h1.senha {
+        font-size: 13pt;
+    }
+
+    tr th {
+        font-size: 7.5pt;
+    }
+
+    tbody tr td {
+        font-size: 6.5pt;
+    }
+
+    img.imagem {
+        max-width: 145px;
+    }
+}
+
+@media (max-width: 415px) {
+    div.tabela-container{
+        max-height: 100%;
+    }
+
+    h1.title {
+        font-size: 10pt;
+    }
+
+    h1.senha {
+        font-size: 13pt;
+    }
+
+    tr th {
+        font-size: 7.5pt;
+    }
+
+    tbody tr td {
+        font-size: 6.5pt;
+    }
+
+    img.imagem {
+        max-width: 145px;
+    }
+}
+
+@media (max-width: 431px) {
+    div.tabela-container{
+        max-height: 100%;
+    }
+    
+    h1.title {
+        font-size: 10pt;
+    }
+
+    h1.senha {
+        font-size: 13pt;
+    }
+
+    tr th {
+        font-size: 7.5pt;
+    }
+
+    tbody tr td {
+        font-size: 6.5pt;
+    }
+
+    img.imagem {
+        max-width: 145px;
+    }
+}
+
+@media (max-width: 541px) {
+    div.tabela-container{
+        max-height: 100%;
+    }
+    
+    h1.title {
+        font-size: 10pt;
+    }
+
+    h1.senha {
+        font-size: 13pt;
+    }
+
+    tr th {
+        font-size: 7.5pt;
+    }
+
+    tbody tr td {
+        font-size: 6.5pt;
+    }
+
+    img.imagem {
+        max-width: 145px;
+    }
+}
+
+@media (max-width: 1025px) {
+    div.tabela-container{
+        max-height: 100%;
+    }
+    
+    h1.title {
+        font-size: 10pt;
+    }
+
+    h1.senha {
+        font-size: 13pt;
+    }
+
+    tr th {
+        font-size: 7.5pt;
+    }
+
+    tbody tr td {
+        font-size: 6.5pt;
+    }
+
+    img.imagem {
+        max-width: 145px;
+    }
+}
